@@ -1,0 +1,109 @@
+/* Set Ups */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+.subtitle {
+  font-weight: 200;
+}
+
+.container {
+  padding: 1em;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+  display: inline-block;
+  list-style: none;
+}
+
+.list li {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.bg-primary {
+  background: lightcoral;
+}
+
+.bg-secondary {
+  background: lightgreen;
+}
+
+/* Starts Here */
+
+.display .content a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  background: lightblue;
+  max-width: 100px;
+}
+
+.display .content input:focus {
+  width: 500px;
+}
+
+.display .content a:hover {
+  background: salmon;
+}
+
+.display .content a:active {
+  background: lightgreen;
+}
+
+/* Position */
+
+.position .outer {
+  height: 300px;
+  width: 300px;
+  background: lightblue;
+}
+
+.position .inner {
+  height: 200px;
+  width: 200px;
+  background: darkblue;
+}
+
+.position .apalah {
+  height: 100px;
+  width: 100px;
+  background: lightgreen;
+}
+
+.position .card {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  background: lightgray;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+.position .card .like {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+
+/* Box Model */
+
+.box-model .outer {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  background: lightcoral;
+}
