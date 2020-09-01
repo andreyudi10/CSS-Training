@@ -1,0 +1,17 @@
+1. cd (file location) // to select location
+2. git init // to connect git with location and track for any changes
+3. git status // to check for any changes and added file(s) that needs to get commit
+4. git add (filename / .) // to put changes from the working area to the staging area
+5. git commit -m "..." // to move the file(s) from staging area to repository with message
+6. git log // to check for any updates with details (author, date, commit message.)
+7. git diff // to compare your work between working area and repository
+8. get diff --staged // to compare your work between staging area and repository
+9. git rm (foldername.txt) // to delete file
+10. git mv (old filename.txt) (new filename.txt) // to rename file
+11. git mv (filename.txt) (foldername)/ // move file to a folder
+12. git mv (old filename.txt) (foldername)/(new filename.txt) // rename a file and move the file to a folder
+13. git commit -am "..." //directly move all file from working area to repository with message
+14. git checkout -- (filename.txt) //to take a file from the repository and make the file on the working area (undo changes whenever you messed up files in working area)
+15. git reset HEAD (filename.txt) // to remove file from staging area
+16. git checkout (commit number) -- (filename.txt) // to get the old version of file/project from repository without deleting any important data
+17. git pull origin master --allow-unrelated-histories // to show conflict
