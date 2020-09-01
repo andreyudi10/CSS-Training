@@ -1,26 +1,8 @@
-.blok1{
-    height: 50vw;
-    width: 50vw;
-    background-color: aqua;
-}
-
-.blok2{
-    height: 25vw;
-    width: 50vw;
-    background-color:blueviolet;
-
-}
-
-.blok3{
-    height: 50vw;
-    width: 10vw;
-    background-color:red;
-}
-
-.blok4{
-    height: 25vw;
-    width: 50vw;
-    background-color:brown;
+/* compulsary function */
+body{
+    padding:0px;
+    margin:0px;
+    /* box-sizing: border-box; */
 }
 
 .flex-wrap-nyamping{
@@ -28,27 +10,94 @@
     flex-direction: row;       
 }
 
-body{
-    padding:0px;
-    margin:0px;
-    box-sizing: border-box;
-}
-
 .flex-wrap-mbawah{
     display: flex;
     flex-direction: column;
 }
 
-.blok5{
+/* Your code begins here */
+.base1{
+    height: 110vh;
+    width: 50vw;
+    background-color:red;
+}
+
+.base2{
+    height: 110vh;
+    width: 50vw;
+    background-color:pink;    
+}
+
+.blok1{
+    height: 10vh;
+    width: 100vw;
+    background-color: aqua; 
+    position:fixed;    
+}
+
+.blok2{
     height: 50%;
-    width: 50%;
+    width: 100%;
     background-color:yellow;
+    /* padding-top:10vh; */
     /* z-index: 1; */
 }
-.blok6{    
+.blok3{    
     height: 50%;
-    width: 50%;
+    width: 100%;
     background-color:black;
     /* z-index: 2; */
 
 }
+
+.blok4{
+    height:50%;
+    width: 100%;
+    background-color:brown;
+    /* padding-top:10vh; */
+}
+
+.blok5{
+    height: 50%;
+    width: 100%;
+    background-color:blueviolet;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
